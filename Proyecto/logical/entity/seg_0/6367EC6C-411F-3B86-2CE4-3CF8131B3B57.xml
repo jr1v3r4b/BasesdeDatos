@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6367EC6C-411F-3B86-2CE4-3CF8131B3B57" name="Area">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:56:48 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NombreArea" id="1CB6AB20-7FAC-5A35-DDF4-D8FA795DECC7">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:56:59 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NumEmpleadoArea" id="38A7D496-FF82-203E-A5FD-7FBB72468B74">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:57:16 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CodigoSede" id="51CA2905-5665-2E13-FF15-39AAA5C0D378">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 01:14:26 UTC</createdTime>
+<generatorID>14415CF2-2868-33DF-CF17-0581E8D83582</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<referedAttribute>E985B1F2-6433-CC84-D71A-079ECE2E815F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6FD7E8BE-94C4-F430-FB27-493763512464" name="Area PK">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:57:12 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CB6AB20-7FAC-5A35-DDF4-D8FA795DECC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

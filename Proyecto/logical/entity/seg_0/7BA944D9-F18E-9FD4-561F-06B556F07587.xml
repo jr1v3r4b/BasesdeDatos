@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BA944D9-F18E-9FD4-561F-06B556F07587" name="Sede">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:54:38 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CodigoSede" id="E985B1F2-6433-CC84-D71A-079ECE2E815F">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:54:56 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreSede" id="C16043F0-A017-0E5A-C0F2-B48BE5DE620C">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:55:14 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DireccionSede" id="FC8186AF-0D35-FF80-AFF1-0E8E1082C715">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:55:29 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NombreCompañia" id="5725869E-1B11-5C8F-C720-8AB3226AF630">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 01:13:08 UTC</createdTime>
+<generatorID>C36BAC08-0194-B778-EDD5-61D2BC30A6B6</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<referedAttribute>16424980-FC4B-48C4-C2D7-6D8F588A8A88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA410B37-EB96-827C-4809-92FF6F27CF99" name="Sede PK">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 00:55:11 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E985B1F2-6433-CC84-D71A-079ECE2E815F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RSA" directorySegmentName="seg_0" id="14415CF2-2868-33DF-CF17-0581E8D83582">
+<createdBy>harri</createdBy>
+<createdTime>2022-05-12 01:14:26 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="D51B7F3C-7853-C14E-1EC0-A2F81FB9052D" value="true"/>
+</engineerTo>
+<sourcePk>AA410B37-EB96-827C-4809-92FF6F27CF99</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7BA944D9-F18E-9FD4-561F-06B556F07587</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6367EC6C-411F-3B86-2CE4-3CF8131B3B57</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
